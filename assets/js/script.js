@@ -1,6 +1,6 @@
-$(function () {
-    //$('[data-bs-toggle="tooltip"]').tooltip()
-});
+$(function(){
+    $('[data-bs-toggle="tooltip"]').tooltip ();
+})
 
 $(document).scroll(function() {
     const y = $("html").scrollTop();
